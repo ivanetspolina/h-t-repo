@@ -1,0 +1,20 @@
+@import "./fonts.css";
+
+body {
+  margin: 60px auto;
+  max-width: 794px;
+  max-height: fit-content;
+  position: relative;
+  font-family: "Great Vibes", "Montserrat", Cambria, sans-serif;
+  box-shadow: 3px 3px 40px -7px rgba(0, 0, 0, 0.3);
+  background-color: #f6f6f6;
+}
+
+#root{
+  background-color: #ffffff;
+  padding-bottom: 20px;
+}
+
+html {
+  all: unset;
+} 

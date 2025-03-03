@@ -1,0 +1,37 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #470089;
+}
+.contact .contact_ul {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.contact .contact_ul .contact_li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contact .contact_ul .contact_li .contact_a .contact_text:hover {
+  color: #ae57ff;
+}
+.contact .contact_ul .contact_li .a_center {
+  display: flex;
+  align-items: center;
+}
+.contact .contact_ul .contact_li .contact_text {
+  font-size: 30px;
+}
+.contact .contact_ul .contact_li .citi {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.contact .contact_ul .contact_li .icon {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: 4rem;
+}/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,45 @@
+@use "colors";
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: colors.$text_regular;
+
+    .contact_ul {
+        width: fit-content;
+
+        .contact_li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .contact_a .contact_text:hover {
+                color: colors.$text_hover;
+            }
+
+            .a_center {
+                display: flex;
+                align-items: center;
+            }
+
+            .contact_text {               
+                font-size: 30px;                
+            }
+
+            .citi{   
+                display: flex;        
+                width: 100%;     
+                justify-content: center;
+            }
+
+            .icon {
+                display: flex;
+                align-items: center;
+                height: 4rem;
+                width: 4rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  margin-bottom: 3px;
+}
+.header .navigation {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.header .navigation .nav-item {
+  margin-right: 10px;
+  font-size: 30px;
+  line-height: 36px;
+  color: #914fa6;
+}
+.header .navigation .nav-item:last-child {
+  margin-right: 0;
+}
+.header .navigation .nav-item:hover {
+  color: #9e41cd;
+}
+.header .navigation .nav-item.active {
+  color: #53039e;
+}/*# sourceMappingURL=header.css.map */
